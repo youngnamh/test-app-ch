@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Define the base URL for your Django API endpoint
-const API_URL = "http://127.0.0.1:8000/api/chatgpt/";
+const API_URL = "http://trainer.youngnamhlady.com/api/chatgpt/";
 
 // Function to send a request with a string input to the endpoint
 export const sendChatRequest = async (input: string): Promise<string> => {
